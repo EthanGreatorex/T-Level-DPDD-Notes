@@ -1,0 +1,262 @@
+<!DOCTYPE html> <html><head>
+		<title>Networks</title>
+		<base href="..\../">
+		<meta id="root-path" root-path="..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="T-Level DPDD - Networks">
+		<meta property="og:title" content="Networks">
+		<meta property="og:description" content="T-Level DPDD - Networks">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="course/business/networks.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="T-Level DPDD">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Networks"><p dir="auto">Networks</p></h1><div class="el-h3 heading-wrapper"><h3 data-heading="Why do business use networks?" dir="auto" class="heading" id="Why_do_business_use_networks?"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Why do business use networks?</h3><div class="heading-children"><div class="el-p"><p dir="auto">Businesses use networks to connect together digital devices, wirelessly or with cables, so that they can communicate and share resources with each other</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Different Types of Networks" dir="auto" class="heading" id="Different_Types_of_Networks"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Different Types of Networks</h2><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Type</th>
+<th dir="ltr">Description</th>
+<th dir="ltr">Security Implications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">SAN - Storage Area Network</td>
+<td dir="ltr">A network of storage devices accessible by computers and servers. Used to store, manage and protect data. Usually connected by fibre optic cabling</td>
+<td dir="ltr">Unauthorized access</td>
+</tr>
+<tr>
+<td dir="ltr">Data interception</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Improper configuration</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">LAN - Local Area Network</td>
+<td dir="ltr">Network that connects devices over a small geographic area such as an office or building</td>
+<td dir="ltr">Internal threats</td>
+</tr>
+<tr>
+<td dir="ltr">Unauthorized access</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Data breaches</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">WLAN - Wireless Local Area Network</td>
+<td dir="ltr">A type of LAN that uses wireless communication instead of wired connections.</td>
+<td dir="ltr">Eavesdropping</td>
+</tr>
+<tr>
+<td dir="ltr">Weak encryption</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Denial of Service attacks</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">WAN - Wide Area Network</td>
+<td dir="ltr">Connects multiple LANs and WLANs over a large geographic area.</td>
+<td dir="ltr">DDOS Attacks</td>
+</tr>
+<tr>
+<td dir="ltr">Hacking attempts</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">PAN - Personal Area Network</td>
+<td dir="ltr">Connects devices in a short range, typically within a few meters. Bluetooth is a common example.</td>
+<td dir="ltr">Risk of interception</td>
+</tr>
+<tr>
+<td dir="ltr">Device theft</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Unauthorized pairing</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-h3 heading-wrapper"><h3 data-heading="Note:" dir="auto" class="heading" id="Note:"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Note:</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">A hub broadcasts to all connected devices, whereas a switch directs to one or more devices</li>
+</ul></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Benefits &amp; Drawbacks of wired connection" dir="auto" class="heading" id="Benefits_&amp;_Drawbacks_of_wired_connection"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Benefits &amp; Drawbacks of wired connection</h2><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Benefits</th>
+<th dir="ltr">Drawbacks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Security can be stronger because the network can be configured with firewalls</td>
+<td dir="ltr">Wired networks are more time consuming to setup than wireless networks</td>
+</tr>
+<tr>
+<td dir="ltr">Unauthorised users cannot connect to the network without the use of an Ethernet cable</td>
+<td dir="ltr">There is less mobility with a wired network.</td>
+</tr>
+<tr>
+<td dir="ltr">Wired networks are more reliable and stable than wireless</td>
+<td dir="ltr">Requires more maintenance</td>
+</tr>
+<tr>
+<td dir="ltr">Wired networks are usually faster than wireless networks</td>
+<td dir="ltr">N/a</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Features and Characteristics of Wireless Connection Methods" dir="auto" class="heading" id="Features_and_Characteristics_of_Wireless_Connection_Methods"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Features and Characteristics of Wireless Connection Methods</h2><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">SSID → Service Set Identifier; a unique name identifying the name of the wireless network</li>
+</ul></div><div class="el-h3 heading-wrapper"><h3 data-heading="Scalability" dir="auto" class="heading" id="Scalability"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Scalability</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Needs be be able to increase in size without major re-configuration</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Loading Balancing" dir="auto" class="heading" id="Loading_Balancing"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Loading Balancing</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Be able to handle high volumes of demands
+<ul>
+<li data-line="1" dir="auto">Ensure sufficient access points so that if one is overloaded, the network will focus traffic in the direction of another access point</li>
+</ul>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Performance Measurement" dir="auto" class="heading" id="Performance_Measurement"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Performance Measurement</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Ability to measure the performance of the network</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Application and Web Content Filtering" dir="auto" class="heading" id="Application_and_Web_Content_Filtering"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Application and Web Content Filtering</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>All networks must mitigate against threats
+<ul>
+<li data-line="1" dir="auto">Application filtering is used to protect from potential malicious threats</li>
+</ul>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Prioritisation of Applications" dir="auto" class="heading" id="Prioritisation_of_Applications"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Prioritisation of Applications</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Guarantee the performance levels of applications that are critical to the functioning of the business.</li>
+<li data-line="1" dir="auto">Applications that are high priority, are therefore prioritised</li>
+</ul></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Bandwidth &amp; Latency, and Their Effect on Performance" dir="auto" class="heading" id="Bandwidth_&amp;_Latency,_and_Their_Effect_on_Performance"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Bandwidth &amp; Latency, and Their Effect on Performance</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Bandwidth" dir="auto" class="heading" id="Bandwidth"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Bandwidth</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Measurement of how much data can be transferred from one point to another during a specific time period</li>
+<li data-line="1" dir="auto">Larger the available bandwidth the greater amount of data can be sent and received across the network</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Latency" dir="auto" class="heading" id="Latency"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Latency</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Measure of the time taken to transmit data from one point to another</li>
+</ul></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Factors that Impact the Latency of a Network" dir="auto" class="heading" id="Factors_that_Impact_the_Latency_of_a_Network"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Factors that Impact the Latency of a Network</h2><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Distance → The response time will be longer based on the distance between the client and server e.g., another country</li>
+<li data-line="1" dir="auto">Transmission medium → Wired has lower latency than wireless, radio signals degrade more over time</li>
+<li data-line="2" dir="auto">Propagation delay → The length of time it takes data packets to travel from the device to the server</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Different Types of Network Models" dir="auto" class="heading" id="Different_Types_of_Network_Models"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Different Types of Network Models</h2><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Type</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Client-server</td>
+<td dir="ltr">The clients and server communicate with each other through the local network or the internet. The server is used to provide resources to the client.</td>
+</tr>
+<tr>
+<td dir="ltr">Thin client</td>
+<td dir="ltr">Runs by accessing resources on a central server. They do not have local storage and have a ‘thinned’ version of the operating system.</td>
+</tr>
+<tr>
+<td dir="ltr">Peer-to-Peer</td>
+<td dir="ltr">Each compute is a ‘peer’ to the other computer. The ‘peer’ acts as a client and server.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Network Topologies" dir="auto" class="heading" id="Network_Topologies"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Network Topologies</h2><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Type</th>
+<th dir="ltr">Description</th>
+<th dir="ltr">Advantages</th>
+<th dir="ltr">Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Star</td>
+<td dir="ltr">Each node is connected to a central device. The central device receives signals from anode and transmits it to the other connected nodes on the network.</td>
+<td dir="ltr">Easy to install  <br>  <br>No disruption to the network when connecting or removing nodes  <br>  <br>Easy to troubleshoot; all data goes through a central point  <br></td>
+<td dir="ltr">If the hub fails, the network goes down  <br>  <br>It can be costly because of the hub or switch  <br></td>
+</tr>
+<tr>
+<td dir="ltr">Mesh</td>
+<td dir="ltr">Each device has a point-to-point contact with every other device on the network.</td>
+<td dir="ltr">No traffic problems occur as there are dedicated links  <br>  <br>If one link fails, it does not impact the whole system  <br>  <br>Data travels down a single line and is therefore more secure  <br></td>
+<td dir="ltr">A lot of wiring involved and is difficult to maintain  <br>  <br>As there is a connection between each node, installation is complex and costly  <br></td>
+</tr>
+<tr>
+<td dir="ltr">Tree</td>
+<td dir="ltr">Also known as star bus topology. Groups of star configured nodes are connected to a linear bus backbone cable.</td>
+<td dir="ltr">Other nodes on the network are not affected if one node fails  <br>  <br>It supports the expansion of existing networks  <br>  <br>Provides a hierarchical arrangement of the nodes  <br></td>
+<td dir="ltr">The network is dependent on the backbone cable, if that fails, the whole network fails.  <br>  <br>The bigger the network, the more complicated it becomes to configure.  <br>  <br>Performance can be slow due to the number of nodes on the network.  <br></td>
+</tr>
+<tr>
+<td dir="ltr">VLAN</td>
+<td dir="ltr">Method used to logically segment networks.</td>
+<td dir="ltr">Provides more security control as each VLAN is a virtual separate network.  <br>  <br>Latency is decreased because of the smaller network size  <br>  <br>Easier to troubleshoot problems on a smaller network than a large one  <br></td>
+<td dir="ltr">Can be expensive to implement as additional routers may be required to control traffic flow  <br>  <br>Maintenance needs to be carried out  <br>  <br>Takes longer to plan and implement  <br></td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="OSI Model" dir="auto" class="heading" id="OSI_Model"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>OSI Model</h2><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Seven layers</li>
+<li data-line="1" dir="auto">Designed to show how a network system communicates and operates</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Split into two groups
+<ul>
+<li data-line="3" dir="auto">Lower &amp; Upper layer</li>
+</ul>
+</li>
+</ul></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Layer Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Application</td>
+</tr>
+<tr>
+<td dir="ltr">Presentation</td>
+</tr>
+<tr>
+<td dir="ltr">Session</td>
+</tr>
+<tr>
+<td dir="ltr">Transport</td>
+</tr>
+<tr>
+<td dir="ltr">Network</td>
+</tr>
+<tr>
+<td dir="ltr">Data Link</td>
+</tr>
+<tr>
+<td dir="ltr">Physical</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3 heading-wrapper"><h3 data-heading="Application" dir="auto" class="heading" id="Application"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Application</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Closest layer to the user</li>
+<li data-line="1" dir="auto">Uses protocols such as → FTP, HTTP,</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Presentation" dir="auto" class="heading" id="Presentation"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Presentation</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Translates data into a suitable format so that it can be understood by the application</li>
+<li data-line="1" dir="auto">Uses protocols such as → JPEG, MPEG</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Session" dir="auto" class="heading" id="Session"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Session</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">This allow applications running on different computers to communicate with each other.</li>
+<li data-line="1" dir="auto">E.g., Establish session, manage data transfer, tear down the session</li>
+<li data-line="2" dir="auto">Uses protocols such as → NFS, SQL</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Transport" dir="auto" class="heading" id="Transport"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Transport</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Responsible for ensuring reliable data delivery so that packets arrive error free and without loss.</li>
+<li data-line="1" dir="auto">Uses protocols such as → TCP, UDP (User Datagram Protocol)</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Network" dir="auto" class="heading" id="Network"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Network</h3><div class="heading-children"></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Data Link" dir="auto" class="heading" id="Data_Link"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Data Link</h3><div class="heading-children"></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Physical" dir="auto" class="heading" id="Physical"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Physical</h3><div class="heading-children"><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="course\business\networks.html#Networks"><div class="tree-item-contents heading-link" heading-name="Networks"><span class="tree-item-title">Networks</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Why_do_business_use_networks?"><div class="tree-item-contents heading-link" heading-name="Why do business use networks?"><span class="tree-item-title">Why do business use networks?</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="course\business\networks.html#Different_Types_of_Networks"><div class="tree-item-contents heading-link" heading-name="Different Types of Networks"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Different Types of Networks</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Note:"><div class="tree-item-contents heading-link" heading-name="Note:"><span class="tree-item-title">Note:</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="course\business\networks.html#Benefits_&amp;_Drawbacks_of_wired_connection"><div class="tree-item-contents heading-link" heading-name="Benefits &amp; Drawbacks of wired connection"><span class="tree-item-title">Benefits &amp; Drawbacks of wired connection</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="course\business\networks.html#Features_and_Characteristics_of_Wireless_Connection_Methods"><div class="tree-item-contents heading-link" heading-name="Features and Characteristics of Wireless Connection Methods"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Features and Characteristics of Wireless Connection Methods</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Scalability"><div class="tree-item-contents heading-link" heading-name="Scalability"><span class="tree-item-title">Scalability</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Loading_Balancing"><div class="tree-item-contents heading-link" heading-name="Loading Balancing"><span class="tree-item-title">Loading Balancing</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Performance_Measurement"><div class="tree-item-contents heading-link" heading-name="Performance Measurement"><span class="tree-item-title">Performance Measurement</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Application_and_Web_Content_Filtering"><div class="tree-item-contents heading-link" heading-name="Application and Web Content Filtering"><span class="tree-item-title">Application and Web Content Filtering</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Prioritisation_of_Applications"><div class="tree-item-contents heading-link" heading-name="Prioritisation of Applications"><span class="tree-item-title">Prioritisation of Applications</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="course\business\networks.html#Bandwidth_&amp;_Latency,_and_Their_Effect_on_Performance"><div class="tree-item-contents heading-link" heading-name="Bandwidth &amp; Latency, and Their Effect on Performance"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Bandwidth &amp; Latency, and Their Effect on Performance</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Bandwidth"><div class="tree-item-contents heading-link" heading-name="Bandwidth"><span class="tree-item-title">Bandwidth</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Latency"><div class="tree-item-contents heading-link" heading-name="Latency"><span class="tree-item-title">Latency</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="course\business\networks.html#Factors_that_Impact_the_Latency_of_a_Network"><div class="tree-item-contents heading-link" heading-name="Factors that Impact the Latency of a Network"><span class="tree-item-title">Factors that Impact the Latency of a Network</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="course\business\networks.html#Different_Types_of_Network_Models"><div class="tree-item-contents heading-link" heading-name="Different Types of Network Models"><span class="tree-item-title">Different Types of Network Models</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="course\business\networks.html#Network_Topologies"><div class="tree-item-contents heading-link" heading-name="Network Topologies"><span class="tree-item-title">Network Topologies</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="course\business\networks.html#OSI_Model"><div class="tree-item-contents heading-link" heading-name="OSI Model"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">OSI Model</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Application"><div class="tree-item-contents heading-link" heading-name="Application"><span class="tree-item-title">Application</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Presentation"><div class="tree-item-contents heading-link" heading-name="Presentation"><span class="tree-item-title">Presentation</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Session"><div class="tree-item-contents heading-link" heading-name="Session"><span class="tree-item-title">Session</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Transport"><div class="tree-item-contents heading-link" heading-name="Transport"><span class="tree-item-title">Transport</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Network"><div class="tree-item-contents heading-link" heading-name="Network"><span class="tree-item-title">Network</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Data_Link"><div class="tree-item-contents heading-link" heading-name="Data Link"><span class="tree-item-title">Data Link</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="course\business\networks.html#Physical"><div class="tree-item-contents heading-link" heading-name="Physical"><span class="tree-item-title">Physical</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

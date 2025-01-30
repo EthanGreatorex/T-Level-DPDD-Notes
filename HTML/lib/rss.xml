@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[T-Level DPDD]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>T-Level DPDD</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 30 Jan 2025 17:46:35 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 30 Jan 2025 17:46:31 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Business Context]]></title><description><![CDATA[ 
+ <br><a data-href="Home" href="course\home.html" class="internal-link" target="_self" rel="noopener nofollow">Home</a><br><br>]]></description><link>course\business\business-context.html</link><guid isPermaLink="false">Course/Business/Business Context.md</guid><pubDate>Tue, 28 Jan 2025 15:28:49 GMT</pubDate></item><item><title><![CDATA[Business Departments & Use of IT]]></title><description><![CDATA[ 
+ <br><br>
+<br>Quality Control Systems for defect identification
+<br>Production Planning Software for scheduling
+<br>Data Analytics for process optimization
+<br>Remote Monitoring through IoT devices
+<br><br>
+<br>Employee Management: Records, payroll, benefits
+<br>Training and Development: E-learning platforms, LMS
+<br><br>
+<br>Product Development and Improvement
+<br>Market Research
+<br>Quality Assurance
+<br>Risk Management
+<br>Data Analysis for research
+<br>Collaboration Tools for teamwork
+<br>Simulation and Modelling for prototypes
+<br><br>
+<br>Customer Demographics and Behaviours
+<br>Marketing Strategy Design
+<br>Content Production
+<br>Brand Management
+<br>Digital Marketing
+<br>Customer Relationship Management (CRM)
+<br>Market Research Tools
+<br><br>
+<br>Financial Statement Preparation
+<br>Transaction Recording
+<br>Financial Planning
+<br>Cash Management
+<br>Financial Management Systems • Data Analytics for forecasting
+<br>Online Banking Operations.
+]]></description><link>course\business\business-departments-&amp;-use-of-it.html</link><guid isPermaLink="false">Course/Business/Business Departments &amp; Use of IT.md</guid><pubDate>Tue, 28 Jan 2025 15:08:30 GMT</pubDate></item><item><title><![CDATA[Cloud environments]]></title><description><![CDATA[ 
+ <br><br>→ The outsourcing of IT services and infrastructure, making them accessible remotely via the internet.<br>→ The internet is the infrastructure, and the world wide web is a service that runs on it.<br><br><br>These are used by a range of end-users. They can be accessed through a digital device (with internet). A public cloud is usually hosted by one cloud provider, e.g., Amazon Web Service, OneDrive.<br><br>These are used by a specific organisation and can be hosted on site or remotely. Access to a private cloud is restricted by a firewall managed by the organisation. A private cloud requires the organisation to install the hardware, software and networking components.<br><br>This is a cloud designed for and used by a group of organisations in a particular sector. For example, the financial sector may use a community cloud to transfer money between banks and process credit cards.<br><br>This is the 'best of both worlds' and incorporates the both private and public clouds. For example, an organisation can utilise some services on the public cloud, but has a private cloud for sensitive services or data.<br><br>There are three commonly used delivery models:<br>
+<br>Infrastructure as a Service (IaaS)
+<br>Platform as a Service (PaaS)
+<br>Software as a Service (SaaS)
+<br><br><br><br>Runtime → The length of time a computer program takes to run.<br>
+Middleware → Software that connects the front-end to the back-end]]></description><link>course\business\cloud-environments.html</link><guid isPermaLink="false">Course/Business/Cloud environments.md</guid><pubDate>Tue, 28 Jan 2025 19:43:56 GMT</pubDate></item><item><title><![CDATA[Data]]></title><description><![CDATA[ 
+ <br><br>
+<br>Human generated
+<br>Artificial intelligence/machine learning
+<br>Sensors
+<br>Transactional data
+<br><br>Knowledge is a combination of information and a person’s experience and intuition<br><br>This is data which has been organised and given analysis and context<br><br>This is the raw numbers and figures which lack any kind of organisation<br><br>
+<br>Companies that do not understand the importance of data management are less likely to survive
+<br>A company’s data is its most valuable asset
+<br>It gives valuable insights to customer needs and user behaviours
+<br><br>
+<br>Often in the format of a hierarchical tree structure
+<br>Easier for the end user to locate files
+<br>Should be a logical structure
+<br><br>
+<br>Process of changing unorganised and raw data into data that can be analysed, therefore making it useful.
+<br><br>
+<br>Discovery
+
+<br>Understand the data fully
+
+
+<br>Structure
+
+<br>Data must be structured to ensure it is accessible
+
+
+<br>Cleansing
+
+<br>Data sets can include data that does not meet the requirements, causing a skew in the analysis
+
+
+<br>Enrichment
+
+<br>Externally collected data sets will most likely not meet the specified needs.
+<br>Two or more data sets will need to be combined
+
+
+<br>Validation
+
+<br>Checking the reliability, quality and safety of the data.
+<br>This involved checking the data to ensure it is complete
+
+
+<br>Publishing
+
+<br>When the data has been wrangled, the data is ready to be analysed and produce output
+<br>e.g., textual or graphical
+
+
+<br><br>All data systems have the same basic functions<br>
+<br>Input
+
+<br>Collection of raw data
+
+
+<br>Search
+
+<br>Carry out searches on data
+
+
+<br>Save
+
+<br>Data that has been input into the system must be stored for reuse
+
+
+<br>Integrate
+
+<br>Different data types/formats can be integrated into a single location
+
+
+<br>Organise (index)
+
+<br>Saved data can be organised, e.g., through indexing
+
+
+<br>Output
+
+<br>The processed and analysed data can be output to the relevant people
+
+
+<br>Feedback loop
+
+<br>Output that is returned to, usually senior management, to evaluate various processes
+
+
+<br><br>There are two main types of errors that can be made on data entry<br>
+<br>Transcription
+
+<br>Occurs when copying data from the source e.g., from a user.
+<br>e.g., the user may type the wrong key on the keyboard
+
+
+<br>Transposition
+
+<br>Occurs when two letters or numbers have been reversed
+
+
+<br><br>Validation: Checks the data being entered is reasonable and meets pre-set rules<br>Verification: Checks if the data entered is identical to the source.<br><br>An entity relationship diagram is used to define how a system will be implemented, this is done through the use of entity's and relationships.<br>Primary key: A field in a table that uniquely identifies each record<br>Foreign key: Used to link tables together, a foreign key references a primary key in a different table<br><br>
+<br>Contains data about the data that will be included in the database
+<br>→ metadata
+<br><br>
+<br>Volume
+
+<br>The amount of data generated each second, minute and hour
+
+
+<br>Variety
+
+<br>Considers where the data has come from and in what form
+
+
+<br>Velocity
+
+<br>The speed at which the data is being generated in real time
+
+
+<br>Variability
+
+<br>How quickly and to what extent, the data being processed is changing
+
+
+<br>Value
+
+<br>The meaning of the data after processing and analysis
+<br>How much the results meet the goals
+
+
+<br>Veracity
+
+<br>How trustworthy is the data
+
+
+<br>Data assurance: The data must have a high level of reliability and quality.<br>Data redundancy: Occurs when the same piece of data is stored two or more times on a system<br>Qualitative: Text/Descriptive based data<br>Quantitative: Numerical based data<br><br>
+<br>All data should be gathered, entered and maintained in the same way with no bias
+<br>Data must be kept securely
+<br>Big data: Very large data set that can be analysed to produce information<br><br>
+<br>Data warehouse
+
+<br>Central collection of key data, in a pre-defined format.
+<br>Used to make business-critical and evidence-based decisions
+<br>Subject to data cleaning
+
+
+<br>Data lake
+
+<br>Hold data in an unstructured way+
+<br>Stored in raw state
+<br>It may not be processed
+<br>Takes from all sources in any data type
+
+
+<br><br>
+<br>Data about data
+<br>Can be classified in three main ways:
+
+<br>Administrative
+<br>Descriptive
+<br>Structural
+
+
+<br>1 → Provides administrative instructions about a file, such as any restrictions to be placed on the file.<br>2 → Relates to how the data is identified, could include titles, dates or keywords. (referred to as<br>metatags on a website)<br>3 → Structural describes how a digital asset is arranged or structured, an obvious example is a data dictionary<br><br>
+<br>Application Programming Interface
+<br>Enables users to manage, access and use data across a range of platforms
+<br>Main advantage is users do not need to create accounts for multiple websites
+<br>Users can create many websites using an API whilst only requiring one log-in credential
+<br>Uses JSON to send and receive requests
+<br>API sends a user’s request to a digital system, and the system sends back a response
+<br>e.g., a user adds a product to their shopping basket. The API will tell the website that a product has been added to the basket and the website puts the product into the user’s virtual basket. The basket is then updated.
+<br><br><br>
+<br>Data that is stored and not moving
+<br><br>
+<br>Data that is being actively used and/or processed by a user or digital system
+<br><br>
+<br>Data when moving from one location to another, this includes moving inside a network
+<br>Data in motion is less secure than the other two
+]]></description><link>course\business\data.html</link><guid isPermaLink="false">Course/Business/Data.md</guid><pubDate>Tue, 28 Jan 2025 15:12:54 GMT</pubDate></item><item><title><![CDATA[Factors Affecting Choice of Hardware]]></title><description><![CDATA[ 
+ <br><br>User experience is the most important factor for many people. If the hardware does not give the user a positive experience, then no one would choose it. For example:<br>An elderly person wanting a mobile phone, may likely want a simple to use phone, large keys and a clear screen.<br>This includes availability. Hardware must have options for people who may have disabilities such as colour blind, or poor vision.<br>Performance must be suitable to the product. If a piece of hardware is slow, it provides a negative experience and damages the products reputation.<br><br>
+<br>Camera Mouse head tracking
+<br>Zoom text screen magnifier
+<br>Braille note taker
+<br>Braille mobile phone
+<br>Scanning pen
+<br>Big keys keyboard
+<br><br><br>
+<br>Two or more things that need to interact together do so properly
+<br>Chose a system that is compatible with current hardware
+<br><br>
+<br>How useful the output of a task if based on the resources used
+<br><br>
+<br>Chose hardware that matches the budget with allocation for maintenance
+<br>Balance the cost of hardware in a machine E.g. don’t get a really expensive GPU and a poor CPU
+<br><br><br>
+<br>Read instruction manuals
+<br>Observe current systems
+<br>Conduct interviews
+<br>Advantages and disadvantages of the system you want to get
+<br>Feasibility study
+<br><br>
+<br>Select hardware, software and OS
+<br>Design interface
+<br>Determine file structure
+<br>Test plans
+<br><br>
+<br>Correct errors
+<br>Implement updates
+<br>Make improvements
+<br><br>
+<br>Does the system perform as expected?
+<br>Can it be improved further?
+<br>Are there any unexpected benefits or problems?
+]]></description><link>course\business\factors-affecting-choice-of-hardware.html</link><guid isPermaLink="false">Course/Business/Factors Affecting Choice of Hardware.md</guid><pubDate>Tue, 28 Jan 2025 15:13:55 GMT</pubDate></item><item><title><![CDATA[Fake Personas]]></title><description><![CDATA[ 
+ <br><br>
+<br>Fake user(s) created based on research
+<br><br>
+<br>It gives us an idea of the target audience
+<br>We can refer back to the persona
+<br><br>
+<br>Name and photo
+<br>Demographic information
+<br>Goals and needs
+<br>Preferences
+<br>What the user does
+<br>What the user spends time on
+<br>What are the user needs
+<br><br>
+<br>Photos of people
+<br>Can lead to stereotypes
+<br>Have to be careful about demographic questions
+<br><br>There are to methods:<br><br>As you can see, Method 2 requires a lot more assumptions than Method 1. Method 1 requires more time and more resources.]]></description><link>course\business\fake-personas.html</link><guid isPermaLink="false">Course/Business/Fake Personas.md</guid><pubDate>Tue, 28 Jan 2025 15:12:11 GMT</pubDate></item><item><title><![CDATA[Networks]]></title><description><![CDATA[ 
+ <br><br>Businesses use networks to connect together digital devices, wirelessly or with cables, so that they can communicate and share resources with each other<br><br><br><br>
+<br>A hub broadcasts to all connected devices, whereas a switch directs to one or more devices
+<br><br><br><br>
+<br>SSID → Service Set Identifier; a unique name identifying the name of the wireless network
+<br><br>
+<br>Needs be be able to increase in size without major re-configuration
+<br><br>
+<br>Be able to handle high volumes of demands
+
+<br>Ensure sufficient access points so that if one is overloaded, the network will focus traffic in the direction of another access point
+
+
+<br><br>
+<br>Ability to measure the performance of the network
+<br><br>
+<br>All networks must mitigate against threats
+
+<br>Application filtering is used to protect from potential malicious threats
+
+
+<br><br>
+<br>Guarantee the performance levels of applications that are critical to the functioning of the business.
+<br>Applications that are high priority, are therefore prioritised
+<br><br><br>
+<br>Measurement of how much data can be transferred from one point to another during a specific time period
+<br>Larger the available bandwidth the greater amount of data can be sent and received across the network
+<br><br>
+<br>Measure of the time taken to transmit data from one point to another
+<br><br>
+<br>Distance → The response time will be longer based on the distance between the client and server e.g., another country
+<br>Transmission medium → Wired has lower latency than wireless, radio signals degrade more over time
+<br>Propagation delay → The length of time it takes data packets to travel from the device to the server
+<br><br><br><br><br><br>
+<br>Seven layers
+<br>Designed to show how a network system communicates and operates
+<br>Split into two groups
+
+<br>Lower &amp; Upper layer
+
+
+<br><br><br>
+<br>Closest layer to the user
+<br>Uses protocols such as → FTP, HTTP,
+<br><br>
+<br>Translates data into a suitable format so that it can be understood by the application
+<br>Uses protocols such as → JPEG, MPEG
+<br><br>
+<br>This allow applications running on different computers to communicate with each other.
+<br>E.g., Establish session, manage data transfer, tear down the session
+<br>Uses protocols such as → NFS, SQL
+<br><br>
+<br>Responsible for ensuring reliable data delivery so that packets arrive error free and without loss.
+<br>Uses protocols such as → TCP, UDP (User Datagram Protocol)
+<br><br><br>]]></description><link>course\business\networks.html</link><guid isPermaLink="false">Course/Business/Networks.md</guid><pubDate>Tue, 28 Jan 2025 15:16:29 GMT</pubDate></item><item><title><![CDATA[Sectors]]></title><description><![CDATA[ 
+ <br><br>• Creates raw materials for other businesses<br>
+• Industries include:<br>
+Agricultural<br>
+Farming<br>
+Fishing<br>
+Forestry<br>
+Mining<br><br>• Transforms raw materials into products<br>
+• Includes manufacturing industry<br>
+• Examples:<br>
+Automobile manufacturers<br>
+Electronics manufacturers<br><br>• Provides services to the public<br>
+• Examples:<br>
+Hotels<br>
+Retail industry<br>
+Restaurants<br>
+Sales<br><br>• Government-owned or operated organizations<br>
+• Examples:<br>
+Libraries<br>
+Schools<br>
+NHS]]></description><link>course\business\sectors.html</link><guid isPermaLink="false">Course/Business/Sectors.md</guid><pubDate>Tue, 28 Jan 2025 15:11:42 GMT</pubDate></item><item><title><![CDATA[Types of Digital Environments]]></title><description><![CDATA[ 
+ <br><br>
+<br>• Processor Types
+
+<br>Microprocessors (computers, smartphones)
+<br>Microcontrollers (washing machines, keyboards)
+<br>Digital Signal Processors (speech/image processing)
+
+
+<br>• Memory Types
+
+<br>RAM: Fast, volatile, upgradeable
+<br>ROM: Non-volatile, boot sequence
+<br>Cache: Very fast, temporary storage
+<br>Secondary Storage: Large capacity, slower
+
+
+<br><br>
+<br>• Input Devices: Mouse, keyboard, scanner, microphone
+<br>• Output Devices: Monitor, printer, speakers, projector
+<br>• Sensors: Temperature, proximity, pressure, light
+<br><br>
+<br>• Types:
+
+<br>Batch OS: For program/data collection
+<br>Multi-tasking OS: Multiple users simultaneously
+<br>Real-time OS: Rapid task switching
+<br>Network OS: Server management
+<br>Mobile OS: iOS, Android
+
+
+<br><br>
+<br>• Topologies:
+
+<br>Star: Central hub connection
+<br>Bus: Single backbone cable
+<br>Mesh: Interconnected nodes
+
+
+<br>• Protocols:
+
+<br>DNS: Domain name translation
+<br>HTTP: Web page transfer
+<br>SMTP: Email transmission
+<br>FTP: File transfer
+
+
+<br><br>
+<br>• Definition: Running virtual instances of computer systems
+<br>• Advantages:
+
+<br>Reduced costs
+<br>Easy disaster recovery
+<br>Secure testing
+
+
+<br>• Disadvantages:
+
+<br>Complex implementation
+<br>Security risks
+<br>Troubleshooting challenges
+
+
+]]></description><link>course\business\types-of-digital-environments.html</link><guid isPermaLink="false">Course/Business/Types of Digital Environments.md</guid><pubDate>Tue, 28 Jan 2025 15:13:36 GMT</pubDate></item><item><title><![CDATA[Virtualisation]]></title><description><![CDATA[ 
+ <br><br>→ Remote servers accessed via the internet that store, manage and process data<br><br>→ This is the technology that enables a single, physical hardware system to be separated into multiple simulated environments.<br>Software know as a hypervisor e.g., VirtualBox, connects to the hardware and splits one system into separate systems known as Virtual Machines (VMs).<br>The hardware that is equipped with a hypervisor is called the host, and the VMs are called guests.<br><br><br><br>→ Increased security; a VM manager can control the guest’s programs. This mitigates the risk for harmful operations being carried out.<br>→ Management; the sharing and aggregation of data can all be managed from a central server.<br>→ Isolation; guests each have a separate environment . This reduces the risk of harmful operations and potential for collisions with other software.<br>→ Portability; a guest is packaged into a virtual image , this means it can be safely moved and executed on top of different VMs.<br><br>Benefits<br>→ Efficient use of hardware; many organisations only use a fraction of their hardware effectively, with virtualisation, multiple instances of hardware can be created and therefore increase effectiveness of the resources.<br>→ Continuous availability; virtualisation allows access at any time. A virtual instance can be moved from one server location to another without having to shut down the process. No data is losing during the migration process.<br>→ Simplified and faster setup; setting up systems can be complex and time-consuming. With virtualisation, an organisation can be up and running within minutes.<br>Drawbacks<br>→ Cost; initial setup can be costly as high performance hardware and software can be expensive.<br>→ Reduces performance; resources are shared. As there may be multiple users performing complex tasks, the overall performance can be reduces.<br>→ Security risks; a single compromised virtual machine could affect the others on the same host.<br>→ Downtime; hardware failures can impact multiple virtual machines on the same server.]]></description><link>course\business\virtualisation.html</link><guid isPermaLink="false">Course/Business/Virtualisation.md</guid><pubDate>Tue, 28 Jan 2025 15:17:01 GMT</pubDate></item><item><title><![CDATA[Vulnerability]]></title><description><![CDATA[ 
+ <br><br>
+<br>Fire
+<br>Flood
+<br>Smoke
+<br>Insects
+<br>Chemical fumes
+<br>Explosion
+<br><br>
+<br>Unauthorised access
+<br>Theft
+<br>Vandalism
+<br>Fire hazards
+<br>Trip hazards
+<br><br>
+<br>Power outage
+<br>Extreme Temperatures
+<br>Unsafe environment
+<br>Electrical noise
+<br>Improper maintenance
+<br><br>
+<br>Improper procedures
+<br>Improper hardware configuration
+<br>Improper software configuration
+]]></description><link>course\business\vulnerability.html</link><guid isPermaLink="false">Course/Business/Vulnerability.md</guid><pubDate>Tue, 28 Jan 2025 15:12:30 GMT</pubDate></item><item><title><![CDATA[AUC]]></title><description><![CDATA[ 
+ <br><br>
+<br>Written agreement between you and an employer about how to use the internet, computers and other resources at the workplace.
+<br>A standard for a good business
+<br>This is important more than ever as the internet becomes increasingly open and wide
+<br><br>
+<br>What monitoring may be carried out
+<br>Activities that are not allowed
+<br>Non-acceptable use of the internet e.g., using it for personal gain
+<br>Using profanity in communications
+<br>Employers may monitor users on devices to be able to keep employees within the rules.<br><br>
+<br>CEO/head of company
+<br>A legal team
+<br><br>
+<br>More resources could be used unnecessarily e.g. bandwidth
+<br>The business could be more liable to lawsuits
+<br>Customers data would be less protected
+]]></description><link>course\legislation\auc.html</link><guid isPermaLink="false">Course/Legislation/AUC.md</guid><pubDate>Tue, 28 Jan 2025 15:21:49 GMT</pubDate></item><item><title><![CDATA[Autonomy]]></title><description><![CDATA[ 
+ <br><br>The use of automated technology and machinery for processes such as manufacturing , eliminating the need of extra labour.<br><br><br>
+<br>Does the same sequence of things every time
+<br>Also know as ‘hard’ automation
+<br>E.g. Food packaging, food production
+<br>Can be expensive to set up
+<br><br>
+<br>Suitable for <a data-tooltip-position="top" aria-label="https://www.oneadvanced.com/news-and-opinion/what-is-batch-production-in-manufacturing/" rel="noopener nofollow" class="external-link" href="https://www.oneadvanced.com/news-and-opinion/what-is-batch-production-in-manufacturing/" target="_blank">batch production</a>
+
+<br>A flexible method of production
+<br>Each batch goes through all stages of production together
+<br>Quality control can be carried out between batches
+<br>Good for maintaining sensible levels of inventory
+<br>Can be lots of downtime between batches
+
+
+<br>Production equipment can be altered in response to changing needs
+<br>Done through the use of a program
+<br><br>
+<br>Produce various combinations of products without having to separate them into batches
+<br>Expensive
+<br>Reduces down-time as re-programming is not needed
+<br>E.g. Make 2 red then 4 yellow then 10 blue
+<br><br>
+<br>Reduced human labour<br>
+
+<br>Consistency in quality<br>
+
+<br>Fewer risks of human error<br>
+
+<br>Improved health and safety<br>
+
+<br>Improved efficiency<br>
+
+<br>Costly initial investment<br>
+
+<br>Requires some manual labour (observing and programming)<br>
+
+<br>Failures could lead to temporary down-time in production
+]]></description><link>course\legislation\autonomy.html</link><guid isPermaLink="false">Course/Legislation/Autonomy.md</guid><pubDate>Tue, 28 Jan 2025 15:22:45 GMT</pubDate></item><item><title><![CDATA[Company Culture]]></title><description><![CDATA[ 
+ <br>company culture → The shared values, beliefs and attitudes that govern how employees interact and work<br><br>
+<br>Management style
+<br>Expectations
+<br>Company goals
+<br>Benefits/perks
+<br>Disciplinary action methods
+<br><br><br><br>
+<br>Morale
+<br>Flexibility
+<br>Productivity
+<br>Motivation
+<br>Trust
+<br><br>
+<br>Lower staff turnover
+<br>Attracts more applicants
+<br>Credibility and public image
+<br><br>
+<br>Lead by example
+<br>Positive relationship with employees
+<br>Encourage feedback and suggestions
+<br>Be considerate of the health and wellbeing of the workforce
+<br><br>
+<br>Customer-centricity
+<br>Innovation
+<br>Data-driven decision making
+<br>Collaboration
+<br>Flexibility
+]]></description><link>course\legislation\company-culture.html</link><guid isPermaLink="false">Course/Legislation/Company Culture.md</guid><pubDate>Tue, 28 Jan 2025 15:25:10 GMT</pubDate></item><item><title><![CDATA[Computer Misuse Act]]></title><description><![CDATA[ 
+ <br>
+<br>Established in 1990
+<br>Focus of the act was to criminalise the act of accessing of modifying data stored on a computer system without permission.
+<br>An increase in the amount of computers in use has caused more and more data to be collected and stored, this creates an even greater potential of threat and areas of harm.
+<br><br><br>
+<br>White hat
+
+<br>The hacker is given permission to hack into a system to identify any loopholes or vulnerabilities.
+
+
+<br>Grey hat
+
+<br>The hacker hacks into a system for fun, but does not have malicious intent toward the computer system
+
+
+<br>Black hat
+
+<br>The hacker hacks into a system with malicious intent, e.g., stealing, exploiting and selling data
+
+
+<br><br>Note: Malware is a general term to describe malicious attacks, whereas a virus is a specific type of malware<br><br><br>This is the art of manipulating people so that confidential information can be found out<br>]]></description><link>course\legislation\computer-misuse-act.html</link><guid isPermaLink="false">Course/Legislation/Computer Misuse Act.md</guid><pubDate>Tue, 28 Jan 2025 15:23:17 GMT</pubDate></item><item><title><![CDATA[Data Protection Act]]></title><description><![CDATA[ 
+ <br>The data protection act 1998 was replaced by the 2018 act<br><br>
+<br>Key Roles: • Data Subject: Person whose data is stored• Data Controller: Organization determining data collection/processing• Information Commissioner: Enforces the Act
+<br><br>
+<br>• Databases are easily accessed and edited • Data is sensitive • Protection against misuse
+<br><br>
+<br>• Race/Ethnic background • Political opinions • Religious beliefs • Health
+<br><br>
+<br>a) Lawfulness &amp; Transparency • Must be legal and clear about data collection • Requires user consent • Must be transparent about data use
+<br>b) Purpose &amp; Minimization • Collect only for specific purposes • Minimize data collection • Keep only necessary data
+<br>c) Data Management • Maintain accuracy • Delete when no longer needed • Ensure security and confidentiality
+<br><br>
+<br>• Information about data usage • Access to personal data • Correction of incorrect data • Data erasure • Control over data processing
+]]></description><link>course\legislation\data-protection-act.html</link><guid isPermaLink="false">Course/Legislation/Data Protection Act.md</guid><pubDate>Tue, 28 Jan 2025 15:23:01 GMT</pubDate></item><item><title><![CDATA[Digital Business Models]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+E-Commerce/Marketplace
+
+<br>Amazon
+<br>eBay
+
+
+<br>
+On-Demand
+
+<br>Uber
+<br>Airbnb
+<br>Lyft
+
+
+<br>
+Free-Freemium
+
+<br>Spotify
+<br>Dropbox
+
+
+<br>
+Subscription-Based
+
+<br>Netflix
+<br>Amazon Prime
+
+
+<br>
+Hidden Revenue
+
+<br>Google
+<br>Facebook
+
+
+<br>
+Open Source
+
+<br>GitHub
+<br>Red hat (Linux)
+
+
+<br>
+Peer-To-Peer
+
+<br>Uber
+<br>LinkedIn
+<br>HyreCar
+
+
+<br>
+Ad Supported
+
+<br>Google
+<br>Facebook
+<br>Twitter
+<br>Quora
+
+
+]]></description><link>course\legislation\digital-business-models.html</link><guid isPermaLink="false">Course/Legislation/Digital Business Models.md</guid><pubDate>Tue, 28 Jan 2025 15:10:06 GMT</pubDate></item><item><title><![CDATA[Emerging Issues & Legislation]]></title><description><![CDATA[ 
+ <br><a data-href="Home" href="course\home.html" class="internal-link" target="_self" rel="noopener nofollow">Home</a><br><br>]]></description><link>course\legislation\emerging-issues-&amp;-legislation.html</link><guid isPermaLink="false">Course/Legislation/Emerging Issues &amp; Legislation.md</guid><pubDate>Wed, 29 Jan 2025 17:28:12 GMT</pubDate></item><item><title><![CDATA[Equality Act]]></title><description><![CDATA[ 
+ <br>
+<br>Provide equality of opportunity for all people
+<br>Protects people from any form of discrimination in society and workplace
+<br><br>Characteristics Protected In the Equality Act:<br>
+<br>Age
+<br>Disability
+<br>Gender reassignment
+<br>Race
+<br>Religion
+<br>]]></description><link>course\legislation\equality-act.html</link><guid isPermaLink="false">Course/Legislation/Equality Act.md</guid><pubDate>Tue, 28 Jan 2025 15:24:30 GMT</pubDate></item><item><title><![CDATA[Ethical and Moral Issues]]></title><description><![CDATA[ 
+ <br><br>Ethics → the moral principles, or rules, that govern a person’s attitude and behaviour<br>Morals → the principles of what people believe is right or wrong<br>DDoS → a network is flooded with so much traffic that it cannot operate as required<br><br>
+<br>Systems can be designed to carry out tasks without the need for, or with very limited, human intervention
+<br><br>
+<br>Customer experience can be improved through chatbots
+
+<br>Answer questions
+<br>Refund items
+
+
+<br>Stock control can be conducted through autonomous operations
+
+<br>Automatically re-order items when stock reaches a predefined level
+
+
+<br><br>
+<br>Systems may be biased
+
+<br>Erroneous data can be fed into the machine learning process
+<br>Mitigates by ensuring a wide range of tests are carried out
+
+
+<br>Jobs can be ‘taken over’ by technology
+<br>If the systems are not reliable, failures can have severe consequences
+<br>Economic impact; replaces human workers, leading to unemployment
+<br>Autonomous systems are vulnerable to cyberattacks
+<br>The production and operation of autonomous systems can have a bad impact on the environment
+<br><br>Societal norms → unwritten rules about beliefs, attitudes, and behaviours that are considered acceptable in a social group or culture.<br>
+<br>Digital technology has transformed that way people interact with each other and see the world
+<br><br>
+<br>Bridging the global gap
+<br>Internet provides a wide range of resources
+<br>Faster and easier communication and collaboration
+<br>Increased accessibility; such as text-to-speech apps and sign language interpretation
+<br><br>
+<br>Reduces physical interaction as people spend more time in a virtual environment
+<br>There is a greater spread of fake news
+<br>Cyberbullying can cause anxiety and depression
+<br>People have become started comparing themselves to others more
+<br><br>
+<br>Increased use of technology within business has cause both positive and negative impacts on the environment
+<br><br>
+<br>Remote working; employees can access the information they need remotely, this reduce greenhouse gases
+<br>Precision farming tools optimize water levels and pesticide use
+<br>Recycling innovations reduce waste that goes to landfill
+<br><br>
+<br>Power consumption has radically increased due to the increasing availability &amp; affordability of technology and that many IT systems run 24/7
+<br>Manufacturing components uses non-renewable sources such as precious metals.
+<br>Technology tends to contain non-degradable materials which creates e-waste that is dumped into landfills
+]]></description><link>course\legislation\ethical-and-moral-issues.html</link><guid isPermaLink="false">Course/Legislation/Ethical and Moral Issues.md</guid><pubDate>Tue, 28 Jan 2025 15:24:44 GMT</pubDate></item><item><title><![CDATA[Healthy Working Environment]]></title><description><![CDATA[ 
+ <br><br><a data-tooltip-position="top" aria-label="https://www.ofi.co.uk/manual-handling-training/manual-handling-operations-1992/?srsltid=AfmBOooHbTO6qRuJNd8LvAfMmDVy1ofzK-1qNGpFvcVAIbF2TE42kqbO" rel="noopener nofollow" class="external-link" href="https://www.ofi.co.uk/manual-handling-training/manual-handling-operations-1992/?srsltid=AfmBOooHbTO6qRuJNd8LvAfMmDVy1ofzK-1qNGpFvcVAIbF2TE42kqbO" target="_blank">Learn all about the Manual Handling Operations Regulations 1992 (ofi.co.uk)</a><br><a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Provision_and_Use_of_Work_Equipment_Regulations_1998" rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/Provision_and_Use_of_Work_Equipment_Regulations_1998" target="_blank">Provision and Use of Work Equipment Regulations 1998 - Wikipedia</a><br><a data-tooltip-position="top" aria-label="https://electricalapprentice.co.uk/what-are-the-electricity-at-work-regulations-1989/" rel="noopener nofollow" class="external-link" href="https://electricalapprentice.co.uk/what-are-the-electricity-at-work-regulations-1989/" target="_blank">What are the Electricity at Work Regulations 1989? (electricalapprentice.co.uk)</a><br><br>
+<br>
+Manual Handling Operations (1992) • Employer duties: Risk assessment for manual handling • Employee duties: Take care of own safety, communicate risks • Purpose: Prevent handling injuries
+
+<br>
+Work Equipment (1998) • Focus: Equipment safety standards • Key requirement: Equipment must be suitable and well-maintained • Employer responsibility: Ensure proper equipment condition
+
+<br>
+Electricity at Work (1989) • Core focus: Electrical safety • Requirements:
+
+<br>Risk assessment
+<br>System design consideration
+<br>Proper installation • Goal: Prevent electrical injuries
+
+
+]]></description><link>course\legislation\healthy-working-environment.html</link><guid isPermaLink="false">Course/Legislation/Healthy Working Environment.md</guid><pubDate>Tue, 28 Jan 2025 15:22:30 GMT</pubDate></item><item><title><![CDATA[Intellectual Property Act]]></title><description><![CDATA[ 
+ <br>
+<br>Strengthen design protection and patents
+<br>It is now a criminal offence to intentionally copy a UK registered design
+<br>If an employee creates a design as part of their job role, then the employer owns the design
+<br><br>
+<br>Granted to the owner of a design
+<br>Legal right to stop others from making, using or selling it for a specific number of years
+<br>Can be applied to all areas of technology, as long as they are new
+]]></description><link>course\legislation\intellectual-property-act.html</link><guid isPermaLink="false">Course/Legislation/Intellectual Property Act.md</guid><pubDate>Tue, 28 Jan 2025 15:23:57 GMT</pubDate></item><item><title><![CDATA[Internet of Things]]></title><description><![CDATA[ 
+ <br><br><br>The IoT is a system of connected objects that collect and transfer data over a network<br>
+without human intervention<br><br>
+<br>Physical devices connected to the internet
+<br>e.g., mobile phones are used for banking, paying for good, and checking the weather etc...
+<br>We can control the lighting and heating in our homes whilst we are away
+<br><br>Each pillar decreases the capabilities of the other pillars<br><br>People can connect to the internet through more than just a web browser and desktop &amp; laptop PC. <br>Such as:<br>
+<br>Smart devices
+<br>Wearable technology
+<br><br>
+<br>IoT is a network of physical objects - "things"
+<br>These are embedded with sensors, software &amp; other technologies
+<br>This enables them to connect and exchange data with other devices
+<br><br>The IoT has enabled data to be collected through sensors<br><br>
+<br>Monitor the operating conditions of equipment
+<br>Captured data is processed by machine learning algorithms
+<br>Operators are enabled to predict failures of equipment
+<br>Managers can address problems quickly and minimise downtime
+<br><br><br>
+<br>e.g., from surveillance camera
+<br><br>
+<br>e.g., from a smart wrist device or fitness equipment
+<br><br>
+<br>e.g., TV programmes from a smart TV
+]]></description><link>course\legislation\internet-of-things.html</link><guid isPermaLink="false">Course/Legislation/Internet of Things.md</guid><pubDate>Wed, 29 Jan 2025 19:20:55 GMT</pubDate></item><item><title><![CDATA[Observational Techniques]]></title><description><![CDATA[ 
+ <br><br>Whistleblowing → a worker who reports a certain type of wrongdoing<br>
+<br>A whistle blower is protected by law
+<br>Whistleblowing complaints do not include personal grievances such as bullying or harassment
+<br>Types of workers include:<br>
+<br>Employees
+<br>Trainees
+<br>Agency Workers; person who has a contract with an agency but works temporarily for someone who hires them
+<br>Whistleblowing complaints include:<br>
+<br>A criminal offence such as fraud
+<br>Danger to the health and safety of a person of group of people
+<br>Risk of physical damage to the environment
+<br>The organisation is breaking the law
+<br>Someone is covering up wrongdoing
+<br><br>→ Knowing what is going on around you<br>There are three levels of situational awareness:<br>
+<br>Level 1; to hear, see, become aware of something using observational techniques
+<br>Level2; understand what you have become aware of
+<br>Level3; using what you understood to inform future actions
+<br>Observational techniques are:<br>
+<br>Observing normal behaviour → Establish a person’s usual behaviour within the working environment. You can become aware when they start to act out of character.
+<br>Awareness of co-workers → Notice if something appears wrong. Are they stressed, are they ill or are they struggling to carry out their work?
+<br>Recognising change or abnormal behaviour → Through understanding a person’s normal behaviour you can easily become aware if there is a change.
+]]></description><link>course\legislation\observational-techniques.html</link><guid isPermaLink="false">Course/Legislation/Observational Techniques.md</guid><pubDate>Tue, 28 Jan 2025 15:24:55 GMT</pubDate></item><item><title><![CDATA[Professional Bodies]]></title><description><![CDATA[ 
+ <br><br>
+<br>Three main professional bodies connected to digital professionals
+<br>Each of these have developed a code of conduct for their members
+
+<br>British Computer Society (IT &amp; Computer Science)
+<br>Institute of Analysts and Programmers (Analyst or programmer)
+<br>Association for Computer Machinery (Broad range of computing professionals)
+
+
+<br>They provide training and a range of qualifications
+<br>Updates in advances in the digital industries
+<br>A community for people working in digital industries
+<br><br>
+<br>Document which defines rules, values and ethical principles and vision
+<br>Provides members with a set of guidelines which need to be followed to uphold the reputation of the body
+<br>Provides clear details about how members should conduct themselves
+<br><br>Can contain the following areas:<br>
+<br>Professional responsibilities
+
+<br>Quality of work, meeting deadlines, communication and confidentiality
+
+
+<br>Contribution to society
+<br>Safety
+<br>Security and privacy
+<br>Innovation
+]]></description><link>course\legislation\professional-bodies.html</link><guid isPermaLink="false">Course/Legislation/Professional Bodies.md</guid><pubDate>Tue, 28 Jan 2025 15:23:27 GMT</pubDate></item><item><title><![CDATA[Risk Working With Computers]]></title><description><![CDATA[ 
+ <br><br>
+<br>Trip hazards
+<br>Bad posture (chair, hands, neck)
+<br>Eye strain
+<br>RSI
+<br>Carpal tunnel
+<br>These risks lead to less productivity and increased staff absence<br><br>
+<br>Risk assessment
+<br>Breaks from looking at screens
+<br>Eye tests
+<br>Health and safety training
+]]></description><link>course\legislation\risk-working-with-computers.html</link><guid isPermaLink="false">Course/Legislation/Risk Working With Computers.md</guid><pubDate>Tue, 28 Jan 2025 15:22:06 GMT</pubDate></item><item><title><![CDATA[Telecommunications Regulations 2000]]></title><description><![CDATA[ 
+ <br>
+<br>Allows employers to monitor employees without the employee having given their consent first.
+<br>Employers must clearly explain the amount of monitoring to the employee; e.g., in the AUP
+<br><br>
+<br>Identify criminal activity
+<br>Check employees are working to the standards
+<br>See that employees are not abusing work systems
+<br>Investigate allegations of misconduct
+<br><br>
+<br>Phone calls
+<br>Emails
+<br>App activity
+<br>Mouse movements
+<br>Keyboard inputs
+<br>GPS vehicle tracking (company vehicle)
+<br><br>
+<br>Employees can be kept more productive and inline with company standards
+<br>Employees can feel they are not trusted
+<br>Employee stress levels may increase; this may lead to less productivity
+<br>Employers have more insight to the inner workings of their company
+]]></description><link>course\legislation\telecommunications-regulations-2000.html</link><guid isPermaLink="false">Course/Legislation/Telecommunications Regulations 2000.md</guid><pubDate>Tue, 28 Jan 2025 15:23:39 GMT</pubDate></item><item><title><![CDATA[Abstraction]]></title><description><![CDATA[ 
+ <br>This is removing unnecessary details from a problem. This can make a problem much easier to understand and aid in the process of decomposition. In programming this may be by using subroutines or removing/simplifying parts of code that are not needed.<br><br>
+<br>Identify essential features
+<br>Hide details that are not needed
+<br><br>
+<br>Algorithm Design
+<br>Software Development
+<br>Robotics (physical structure, programming and sensor integration)
+<br><br>
+<br>Car Engine: The internal combustion process is abstracted, and drivers only interact with the accelerator, brake, and gearshift without knowing the intricacies of fuel injection, ignition, and exhaust systems.
+<br>Elevator Control System: The elevator’s internal mechanics are abstracted, and users only interact with buttons to select floors, without knowing the details of the elevator’s movement.
+<br><br>
+<br>Reduced complexity
+<br>Code reusability
+<br>Easier maintenance
+]]></description><link>course\problem-solving\abstraction.html</link><guid isPermaLink="false">Course/Problem Solving/Abstraction.md</guid><pubDate>Tue, 28 Jan 2025 15:33:52 GMT</pubDate></item><item><title><![CDATA[Algorithm]]></title><description><![CDATA[ 
+ <br>A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.<br><br>
+<br>Resource efficiency
+<br>Scalability
+<br>Avoidance of errors
+<br>Code reusability
+<br><br>
+<br>Written description (written in plain English)
+<br>Pseudocode
+<br>Flowcharts
+<br>Program Code
+<br><br>+ - * ^ / % //
+<br>
+<br>Plus/Minus/Multiply./Exponent/Divide/Remainder/Whole integer
+<br><br>!= &gt;= &lt;= &gt; &lt; = ==
+]]></description><link>course\problem-solving\algorithm.html</link><guid isPermaLink="false">Course/Problem Solving/Algorithm.md</guid><pubDate>Tue, 28 Jan 2025 15:34:18 GMT</pubDate></item><item><title><![CDATA[Algorithm Analysis]]></title><description><![CDATA[ 
+ <br><br>This is an important part of computational complexity which provides an estimation for the required resources of an algorithm to solve a specific computational problem. This is the determination of the amount of time and space resources required to execute it.<br><br>We can predict the behaviour of an algorithm without having to implement it on a specific set of hardware. As we can approximately predict performance of algorithms, we can compare different programs to select the most suited to our purpose.<br><br><br>Define the input a program can receive for it to take the least time to execute. For example, in a linear search algorithm, the best-case scenario is the search data is present at the first location.<br><br>Define the input a program can receive for it to take the maximum time to execute. For example, in a linear search algorithm, the worst-case scenario is the search data is not present in the list.<br><br>This takes all the random inputs and will calculate the computation time for each one. The formula [Average Case=all random case time/total no of case] is used to provide the result.]]></description><link>course\problem-solving\algorithm-analysis.html</link><guid isPermaLink="false">Course/Problem Solving/Algorithm Analysis.md</guid><pubDate>Tue, 28 Jan 2025 15:36:16 GMT</pubDate></item><item><title><![CDATA[Bottom-Up]]></title><description><![CDATA[ 
+ <br>The bottom-up approach in software development is&nbsp;a methodology where development begins with the lowest-level components of the system and progresses upwards towards higher-level components. This approach is the opposite of the top-down approach, where development starts with high-level components and works downward towards lower-level components.<br><br>
+<br>Component-based design: Uses the composition approach
+
+<br>starting with the low-level components or modules first.
+
+
+<br>Incremental integration: Components are integrated into larger modules…. and then these into the final system
+<br>Focus on individual components: Each component is thoroughly tested and debugged
+<br>Flexibility and adaptability
+<br><br>
+<br>Reduced complexity
+<br>Easier testing and debugging
+<br>Improved maintainability
+<br>Increased flexibility
+<br><br>
+<br>Higher overhead: Requires more effort to design and implement individual components
+]]></description><link>course\problem-solving\bottom-up.html</link><guid isPermaLink="false">Course/Problem Solving/Bottom-Up.md</guid><pubDate>Tue, 28 Jan 2025 15:34:41 GMT</pubDate></item><item><title><![CDATA[Decomposition]]></title><description><![CDATA[ 
+ <br>This is the process of breaking down a large problem into smaller, more manageable parts. It is used in troubleshooting and the development of a program.<br><br>
+<br>Divide and Conquer: This involves dividing a complex problem into smaller more manageable sub-problems. Each sub-problem is solved independently and the solutions for each are combined.
+<br>Modularity: Decomposition promotes self-contained modules that can be tested and maintained separately.
+<br><br>
+<br>Algorithm Design
+<br>Software Development
+<br>Robotics (physical structure, programming and sensor integration)
+<br><br>
+<br>Easier to solve a problem
+<br>More maintainability as the system is built in components
+<br>Increased efficiency as multiple teams can work on separate modules independently
+]]></description><link>course\problem-solving\decomposition.html</link><guid isPermaLink="false">Course/Problem Solving/Decomposition.md</guid><pubDate>Tue, 28 Jan 2025 15:33:46 GMT</pubDate></item><item><title><![CDATA[Pattern Recognition]]></title><description><![CDATA[ 
+ <br>This is the process of looking for similarities to be able to solve a problem more efficiently. We can use the knowledge gained to apply it to further recognised problems.<br><br>
+<br>Image processing
+<br>Machine learning
+<br>Natural Language Processing
+<br>Robotics
+<br>All these examples above require patterns to be recognised so an action can be made.]]></description><link>course\problem-solving\pattern-recognition.html</link><guid isPermaLink="false">Course/Problem Solving/Pattern Recognition.md</guid><pubDate>Tue, 28 Jan 2025 15:34:00 GMT</pubDate></item><item><title><![CDATA[PDLC]]></title><description><![CDATA[ 
+ <br><br>
+<br>Planning
+<br>Analysis
+<br>Design
+<br>Implementation
+<br>Testing
+<br>Deployment
+<br>Maintenance
+<br><br>In this phase, the goals and objectives of the program are defined. Once an understanding of the program requirements has been achieved, a plan can be developed. This includes the identification of resources and determining of the budget for the project. This is also known as the feasibility study.<br><br>During this phase, the requirements for the program are analysed. An example of this is the identifying of stakeholders and their needs and expectations.<br><br>The program’s architecture and design are developed. The design of the program refers the program’s components, interfaces and how the program will be tested and deployed. Methods for designing the program can be through the use of structure charts, flowcharts and pseudocode. These help in designing the logic of the program without having to focus on the syntax.<br><br>Throughout this phase the program is developed and coded. One the program code has been completed, any necessary documentation is created. Documentation will include the flowcharts, pseudocode or structure charts from the design phase as well as in-depth explanations of the program’s functionality and program features. &nbsp;This process will be taking the flowcharts or pseudocode from the Design phase and translating in into the proper program code.<br><br>The program is tested to ensure that it meets the requirements set in the planning phase. Examples of testing could be processes such as testing data inputs, both correct and incorrect data. People who do not have any involvement with the program may be brought in to use the program, this can aid in finding any bugs. These tests can be continued until the program is free of bugs. This is the debugging process.<br><br>The program is tested to ensure that it meets the requirements set in the planning phase. Examples of testing could be processes such as testing data inputs, both correct and incorrect data. People who do not have any involvement with the program may be brought in to use the program, this can aid in finding any bugs. These tests can be continued until the program is free of bugs. This is the debugging process.<br><br>The program is maintained by fixing any bugs or errors that are found and supplying the users with the updated program. In order to fulfil this maintenance, the program will be kept under watch until the software has complete functionality. Even after the program has complete functionality, problems may occur which still must be fixed.<br><br>]]></description><link>course\problem-solving\pdlc.html</link><guid isPermaLink="false">Course/Problem Solving/PDLC.md</guid><pubDate>Tue, 28 Jan 2025 15:36:07 GMT</pubDate></item><item><title><![CDATA[Problem Solving]]></title><description><![CDATA[ 
+ <br><a data-href="Home" href="course\home.html" class="internal-link" target="_self" rel="noopener nofollow">Home</a><br><br>]]></description><link>course\problem-solving\problem-solving.html</link><guid isPermaLink="false">Course/Problem Solving/Problem Solving.md</guid><pubDate>Tue, 28 Jan 2025 15:33:41 GMT</pubDate></item><item><title><![CDATA[Pseudocode]]></title><description><![CDATA[ 
+ <br><br>Plus -&gt; +
+Minus -&gt; -
+Multiply -&gt; *
+Divide -&gt; /
+Exponent -&gt; ^
+Remainder Division -&gt; MOD
+Whole Integer Division -&gt; DIV
+-----------------------------
+Not Equal To -&gt; &lt;&gt;
+Equal To -&gt; =
+Greater Than -&gt; &gt;
+Less Than -&gt; &lt;
+Great Than Or Equal To -&gt; &gt;=
+Less Than Or Equal To -&gt; &lt;=
+<br><br><br>RECEIVE Weight FROM (REAL) KEYBOARD
+RECEIVE Height FROM (REAL) KEYBOARD
+SET BMI TO Weight / Height * Height
+SEND BMI TO DISPLAY
+<br><br>RECEIVE num1 FROM (INTEGER) KEYBOARD
+RECIEVE num2 FROM (INTEGER) KEYBOARD
+SET Result TO num1 + num2
+SEND Result TO DISPLAY
+<br><br>RECEIVE Principal FROM (REAL) KEYBOARD
+RECEIVE Rate FROM (REAL) KEYBOARD
+RECEIVE Time FROM (REAL) KEYBOARD
+SET SimpleInterest TO (Principal * Rate * Time) / 100
+SEND SimpleInterest TO DISPLAY
+<br><br>|--------------------------|
+|Problem Solving Assignment|
+|--------------------------|
+
+# NOTE: I am unaware of the correct method for Square Root in the Pearson Pseudocode so I used SQRT().
+
+RECEIVE a FROM (REAL) KEYBOARD
+RECEIVE b FROM (REAL) KEYBOARD
+RECEIVE c FROM (REAL) KEYBOARD
+
+SET TopLine TO (b * b) - (4 * a * c)
+SET Solution1 TO (-b + SQRT(TopLine)) / (2 * a)
+SET Solution2 TO (-b - SQRT(TopLine)) / (2 * a)
+
+SEND "Roots:", Solution1, "and", Solution 2 TO DISPLAY
+
+# WHAT EACH LINE DOES
+1) Gets a from the user as a REAL
+2) Gets b from the user as a REAL
+3) Gets c from the user as a REAL
+4)
+5) The quadratic equation must be broken down (decomposition). We can solve b^2 - 4ac in order to later calculate the +- values.
+6) Calculate the first solution using a + operator to give us the positive root value.
+7) Calculate the second solution using a - operator to give us the negative root value.
+8)
+9) Send the roots to the display.
+<br><br>Find all the odd numbers between 1 and n<br>STEP-1: START 
+STEP-2: RECEIVE UpperLimit FROM (INTEGER) KEYBOARD
+STEP-3: SET Counter TO 1
+STEP-4: IF Counter &gt; UpperLimit THEN
+		        Go to STEP-7
+	      ENDIF
+STEP-5:	IF Counter MOD 2 = 1 THEN
+		        SEND Counter TO DISPLAY
+	ENDIF
+STEP-6	Counter = Counter + 1
+STEP-7	Go to STEP-4
+STEP-8	STOP
+
+]]></description><link>course\problem-solving\pseudocode.html</link><guid isPermaLink="false">Course/Problem Solving/Pseudocode.md</guid><pubDate>Tue, 28 Jan 2025 15:35:40 GMT</pubDate></item><item><title><![CDATA[RCA]]></title><description><![CDATA[ 
+ <br>This is a method of analysing the defects and identifying the cause. This purpose of the RCA is the find the root cause and not treat the symptom. The development team have to identify whether the defect was due to:<br>
+<br>Testing miss
+<br>Development miss
+<br>Design miss
+<br><br>
+<br>Unclear / missing / incorrect requirements
+<br>Incorrect design
+<br>Incorrect Coding
+<br>Insufficient Testing
+<br>Environment Issues (Hardware, Software)
+<br><br><br>
+<br>A visual root cause analysis tool to identify the possible causes of the identified problem
+<br><br>
+<br>A series of questions where each answer is responded with a Why question
+<br>Relatively fast and simple to arrive at the root cause
+<br>We can start from the last phase and work towards the first phase of the PDLC
+
+<br>WHY” the Defect was not caught during the&nbsp;Sanity Test in production?
+<br>“WHY” the Defect was not caught during Testing?
+<br>“WHY” the Defect was not caught during the Test case review?
+<br>“WHY” the Defect was not caught&nbsp;during Unit Testing?
+<br>“WHY” the Defect was not caught during “Design Review”?
+<br>“WHY” the Defect was not caught during the Requirement phase?
+
+
+<br><br>
+<br>Prevents reoccurrence of the same problem in the future
+<br>Reduces developmental costs and saves time
+<br>Improves customer satisfaction
+<br>Boost productivity
+<br>Find hidden problems in the system
+]]></description><link>course\problem-solving\rca.html</link><guid isPermaLink="false">Course/Problem Solving/RCA.md</guid><pubDate>Tue, 28 Jan 2025 15:36:35 GMT</pubDate></item><item><title><![CDATA[Top-Down]]></title><description><![CDATA[ 
+ <br>The top-down approach in software development is&nbsp;a method of designing and building a system by starting with a high-level design and then progressively refining the design with increasing levels of detail. This approach involves breaking down a large, complex problem or system into smaller, more manageable pieces, and then working on each piece individually.<br><br>
+<br>High-level design: Top-down approach begins with a high-level understanding of the system’s requirements and functionality.
+<br>Decomposition: The system is broken down into smaller more manageable modules which are designed and implemented separately.
+<br>Stepwise refinement: Each module is refined in detail
+<br><br>
+<br>Easier to understand
+<br>Improved organization
+<br>Reduced complexity
+<br>Faster development
+<br><br>
+<br>Risk of oversimplification (the high-level design may not capture all the complexities of the system)
+<br>Difficulty in handling unexpected issues (top-down approach has a lack of flexibility)
+<br>Less creative
+<br><br>
+<br>C
+<br>COBOL
+<br>FORTRAN
+<br><br>
+<br>Click me!
+
+<br>The top-down approach goes from the general to the specific, whereas the bottom-up approach moves from the specific to the general.
+<br>During the top-down approach, integration happens after the high-level design is completed, whereas during bottom-up approach, the integration occurs as each component is developed and tested.
+<br>Top-down approach uses decomposition, which is taking the high level design and breaking down the system into more detail components…
+<br>Whereas Bottom-Up approach uses composition which is starting with the low-level components or modules first.
+
+
+]]></description><link>course\problem-solving\top-down.html</link><guid isPermaLink="false">Course/Problem Solving/Top-Down.md</guid><pubDate>Tue, 28 Jan 2025 15:34:30 GMT</pubDate></item><item><title><![CDATA[ESP Task 4a Resources]]></title><description><![CDATA[ 
+ <br><br><br><br>
+<br>You are provided a data frame that contains airports &amp; the amount of passengers from that airport on each day
+<br>You must plot the trends for a specific airport 'DUB'
+<br><br><img alt="Pasted image 20250128144619.png" src="course\python\pasted-image-20250128144619.png"><br><br>import pandas as pd
+
+from matplotlib import pyplot as plt
+********
+plt.style.use('dark_background')
+
+df = pd.read_csv('Task4a_data.csv')
+
+# Get the trends over time for dublin airport
+
+dublin_df = df.loc[df['From'] == 'DUB']
+
+# Get the dates from the columns
+
+dates_columns = df.columns[3:]
+
+dublin_trends = dublin_df.groupby('From')[dates_columns].sum()
+
+plt.figure(figsize=(14,7))
+
+# Plot the trends on a chart
+
+plt.plot(dates_columns,dublin_trends.loc['DUB'],color='purple')
+
+plt.title('Trends over time for Dublin Airport')
+
+plt.xlabel('Date')
+
+plt.ylabel('Passenger Numbers')
+
+plt.xticks(rotation=90)
+
+plt.tight_layout()
+
+plt.show()
+
+<br><br><img alt="Pasted image 20250128144543.png" src="course\python\pasted-image-20250128144543.png"><br><br>
+<br>Check for any negative numbers inside the data frame
+<br><br>try:
+	df = pd.read_csv("Task4a_data.csv")
+except FileNotFoundError:
+	print("Error whilst reading in data file...")
+	exit()
+else:
+	print("\nChecking data for negative numbers...")
+	if (df[['Tickets','Gift Shop','Snack Stand','Pictures']] &lt; 0).any().any():
+		print("Data set contains negative values...")
+		print("Exiting...")
+		exit()
+	else:
+		print("Data set has been verified... no negative numbers present.\n")
+<br>
+<br>I have specified the columns which contain numerical numbers
+
+<br>If no columns are specified, there will be an error if a string column is found
+
+
+]]></description><link>course\python\esp-task-4a-resources.html</link><guid isPermaLink="false">Course/Python/ESP Task 4a Resources.md</guid><pubDate>Wed, 29 Jan 2025 17:13:40 GMT</pubDate><enclosure url="course\python\pasted-image-20250128144619.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;course\python\pasted-image-20250128144619.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ESP Task4a 2023]]></title><description><![CDATA[ 
+ <br><br>
+<br>A step by step representation of a function
+<br>item, start_date &amp; end_date are arguments passed into this function
+<br># Simply read in our data file
+
+df = pd.read_csv("Task4a_data.csv")
+<br># This will reduce our data frame to a smaller one where only the rows that have our item and lunch as a service are selected
+
+lunch_df = df.loc[(df['Menu Item'] == item) &amp; (df['Service'] == "Lunch")]
+<br># This will filter the data frame and remove any columns that aren't within start_date and end_date.
+
+lunch_range_df = lunch_df.loc[:,start_date:end_date]
+
+# The reult will look something like this:
+01/01/2021  02/02/2022  03/03/2023 ... 27/12/2027  28/12/2028
+
+   45          56           99     ...    157          12
+
+# As you can see, it has removed the 'Menu Item' &amp; 'Service' columns as they come before the dates
+<br># This will transform the data frame into two columns
+
+ lunch_range_df = lunch_range_df.iloc[0]
+
+# The result will look something like this:
+ 01/01/2021  45
+
+ 02/02/2023  56
+
+ 03/03/2023  99
+
+ ...
+
+ 27/12/2027  157
+
+ 28/12/2028  12
+<br># Now the dates are the index of our data frame, we can plot it :)
+
+lunch_range_df.plot(kind='line',marker='o',color='purple',figsize=(12,6))
+
+
+# Make sure we include details!
+plt.title(f"Trends Between {start_date} &amp; {end_date} for {item} at Lunch")
+
+plt.xlabel("Date")
+
+plt.xticks(rotation=15)
+
+plt.ylabel("Amount of Sales")
+
+plt.tight_layout()
+
+plt.show()
+<br><br>
+<br>User entered Burgers
+<br>Between dates 03/03/2023 &amp; 15/03/2023<br>
+<img alt="Pasted image 20250128165859.png" src="lib\media\pasted-image-20250128165859.png">
+<br><br>
+<br>A step by step representation of a function
+<br>start_date &amp; end_date are passed into the function as arguments
+<br># Simply read in our data file
+df = pd.read_csv("Task4a_data.csv")
+<br># Create two data frames. 
+# The first one will calculate the sum
+# The second will calculate the mean (average)
+# numeric_only stops pandas from trying to add strings &amp; numbers together
+
+total_df = df.groupby('Menu Item').sum(numeric_only=True)
+average_df = df.groupby('Menu Item').sum(numeric_only=True)
+
+# Example output from total_df:
+Menu Item   01/01/2021  02/02/2022
+Nachos         50          15
+Burgers        77          999
+<br># Now we need to filter down the dataframe to our dates
+# During the same line of code, we sum together each row (axis=1)
+
+total_df = total_df.loc[:,start_date:end_date].sum(axis=1, numeric_only=True)
+average_df = average_df.loc[:,start_date:end_date].sum(axis=1, numeric_only=True)
+
+# Example output from total_df:
+Menu Item
+Brisket    419
+Burger     491
+
+# As you can see, all dates &amp; values have be added up for each menu item
+<br># The menu item is our index, this means we can plot a bar chart :)
+# I will only plot total_df for the example
+
+total_df.plot(kind='bar',color='purple',figsize=(10,5))
+
+# Add details!
+plt.title(f"Total Sales Between {start_date} &amp; {end_date}")
+
+plt.xlabel("Menu Item")
+
+plt.xticks(rotation=15)
+
+plt.ylabel("Total Sales")
+
+plt.grid()
+
+plt.tight_layout()
+
+plt.show()
+<br><br>
+<br>User enters dates 03/03/2023 &amp; 10/03/2023
+<br><img alt="Pasted image 20250128173451.png" src="lib\media\pasted-image-20250128173451.png">]]></description><link>course\python\esp-task4a-2023.html</link><guid isPermaLink="false">Course/Python/ESP Task4a 2023.md</guid><pubDate>Tue, 28 Jan 2025 18:14:38 GMT</pubDate><enclosure url="lib\media\pasted-image-20250128165859.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20250128165859.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Python]]></title><description><![CDATA[ 
+ <br><a data-href="Home" href="course\home.html" class="internal-link" target="_self" rel="noopener nofollow">Home</a><br><br>]]></description><link>course\python\python.html</link><guid isPermaLink="false">Course/Python/Python.md</guid><pubDate>Tue, 28 Jan 2025 16:40:18 GMT</pubDate></item><item><title><![CDATA[Home]]></title><description><![CDATA[ 
+ <br> 🚀 Hey! Just relax, focus and enjoy the process of studying!<br><br> <a data-href="Python" href="course\python\python.html" class="internal-link" target="_self" rel="noopener nofollow">Python</a><br><br><a data-href="Business Context" href="course\business\business-context.html" class="internal-link" target="_self" rel="noopener nofollow">Business Context</a><br><br><a data-href="Emerging Issues &amp; Legislation" href="course\legislation\emerging-issues-&amp;-legislation.html" class="internal-link" target="_self" rel="noopener nofollow">Emerging Issues &amp; Legislation</a><br><br><a data-href="Problem Solving" href="course\problem-solving\problem-solving.html" class="internal-link" target="_self" rel="noopener nofollow">Problem Solving</a>]]></description><link>course\home.html</link><guid isPermaLink="false">Course/Home.md</guid><pubDate>Tue, 28 Jan 2025 15:31:55 GMT</pubDate></item></channel></rss>
