@@ -1,0 +1,497 @@
+{
+  "vaultName": "Ethan's Vault",
+  "lastExport": 1739355850515,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Course/Business/Business Context.md",
+    "Course/Business/Business Departments & Use of IT.md",
+    "Course/Business/Cloud environments.md",
+    "Course/Business/Data.md",
+    "Course/Business/Factors Affecting Choice of Hardware.md",
+    "Course/Business/Fake Personas.md",
+    "Course/Business/Networks.md",
+    "Course/Business/Raid.md",
+    "Course/Business/Resilience.md",
+    "Course/Business/Sectors.md",
+    "Course/Business/Types of Digital Environments.md",
+    "Course/Business/Virtualisation.md",
+    "Course/Business/Vulnerability.md",
+    "Course/images/Pasted image 20250128165630.png",
+    "Course/images/Pasted image 20250128165631.png",
+    "Course/images/Pasted image 20250128165724.png",
+    "Course/images/Pasted image 20250128165859.png",
+    "Course/images/Pasted image 20250128173451.png",
+    "Course/images/Pasted image 20250128181355.png",
+    "Course/Legislation/AI, ML & DL.md",
+    "Course/Legislation/AUC.md",
+    "Course/Legislation/Autonomy.md",
+    "Course/Legislation/Company Culture.md",
+    "Course/Legislation/Computer Misuse Act.md",
+    "Course/Legislation/Data Protection Act.md",
+    "Course/Legislation/Digital Business Models.md",
+    "Course/Legislation/Emerging Issues & Legislation.md",
+    "Course/Legislation/Equality Act.md",
+    "Course/Legislation/Ethical and Moral Issues.md",
+    "Course/Legislation/Healthy Working Environment.md",
+    "Course/Legislation/Intellectual Property Act.md",
+    "Course/Legislation/Internet of Things.md",
+    "Course/Legislation/Observational Techniques.md",
+    "Course/Legislation/Professional Bodies.md",
+    "Course/Legislation/Risk Working With Computers.md",
+    "Course/Legislation/Telecommunications Regulations 2000.md",
+    "Course/Problem Solving/Abstraction.md",
+    "Course/Problem Solving/Algorithm.md",
+    "Course/Problem Solving/Algorithm Analysis.md",
+    "Course/Problem Solving/Bottom-Up.md",
+    "Course/Problem Solving/Decomposition.md",
+    "Course/Problem Solving/Pattern Recognition.md",
+    "Course/Problem Solving/PDLC.md",
+    "Course/Problem Solving/Problem Solving.md",
+    "Course/Problem Solving/Pseudocode.md",
+    "Course/Problem Solving/RCA.md",
+    "Course/Problem Solving/Top-Down.md",
+    "Course/Python/ESP Task 4a Resources.md",
+    "Course/Python/ESP Task4a 2023.md",
+    "Course/Python/Pasted image 20250128144543.png",
+    "Course/Python/Pasted image 20250128144619.png",
+    "Course/Python/Python.md",
+    "Course/Home.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg"
+  ],
+  "fileInfo": {
+    "Course/Business/Business Context.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1045,
+      "exportedPath": "Course/Business/Business Context.html",
+      "dependencies": []
+    },
+    "Course/Business/Business Departments & Use of IT.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 985,
+      "exportedPath": "Course/Business/Business Departments & Use of IT.html",
+      "dependencies": []
+    },
+    "Course/Business/Cloud environments.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 5177,
+      "exportedPath": "Course/Business/Cloud environments.html",
+      "dependencies": []
+    },
+    "Course/Business/Data.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 5874,
+      "exportedPath": "Course/Business/Data.html",
+      "dependencies": []
+    },
+    "Course/Business/Factors Affecting Choice of Hardware.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1707,
+      "exportedPath": "Course/Business/Factors Affecting Choice of Hardware.html",
+      "dependencies": []
+    },
+    "Course/Business/Fake Personas.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 817,
+      "exportedPath": "Course/Business/Fake Personas.html",
+      "dependencies": []
+    },
+    "Course/Business/Networks.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 17564,
+      "exportedPath": "Course/Business/Networks.html",
+      "dependencies": []
+    },
+    "Course/Business/Raid.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1457,
+      "exportedPath": "Course/Business/Raid.html",
+      "dependencies": []
+    },
+    "Course/Business/Resilience.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 4279,
+      "exportedPath": "Course/Business/Resilience.html",
+      "dependencies": []
+    },
+    "Course/Business/Sectors.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 570,
+      "exportedPath": "Course/Business/Sectors.html",
+      "dependencies": []
+    },
+    "Course/Business/Types of Digital Environments.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1400,
+      "exportedPath": "Course/Business/Types of Digital Environments.html",
+      "dependencies": []
+    },
+    "Course/Business/Virtualisation.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 2660,
+      "exportedPath": "Course/Business/Virtualisation.html",
+      "dependencies": []
+    },
+    "Course/Business/Vulnerability.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 387,
+      "exportedPath": "Course/Business/Vulnerability.html",
+      "dependencies": []
+    },
+    "Course/images/Pasted image 20250128165630.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 70361,
+      "exportedPath": "Course/images/Pasted image 20250128165630.png",
+      "dependencies": []
+    },
+    "Course/images/Pasted image 20250128165631.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 70361,
+      "exportedPath": "Course/images/Pasted image 20250128165631.png",
+      "dependencies": []
+    },
+    "Course/images/Pasted image 20250128165724.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 64148,
+      "exportedPath": "Course/images/Pasted image 20250128165724.png",
+      "dependencies": []
+    },
+    "Course/images/Pasted image 20250128165859.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 50254,
+      "exportedPath": "Course/images/Pasted image 20250128165859.png",
+      "dependencies": []
+    },
+    "Course/images/Pasted image 20250128173451.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 45761,
+      "exportedPath": "Course/images/Pasted image 20250128173451.png",
+      "dependencies": []
+    },
+    "Course/images/Pasted image 20250128181355.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 128009,
+      "exportedPath": "Course/images/Pasted image 20250128181355.png",
+      "dependencies": []
+    },
+    "Course/Legislation/AI, ML & DL.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1995,
+      "exportedPath": "Course/Legislation/AI, ML & DL.html",
+      "dependencies": []
+    },
+    "Course/Legislation/AUC.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 835,
+      "exportedPath": "Course/Legislation/AUC.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Autonomy.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1399,
+      "exportedPath": "Course/Legislation/Autonomy.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Company Culture.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1266,
+      "exportedPath": "Course/Legislation/Company Culture.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Computer Misuse Act.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 2176,
+      "exportedPath": "Course/Legislation/Computer Misuse Act.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Data Protection Act.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1092,
+      "exportedPath": "Course/Legislation/Data Protection Act.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Digital Business Models.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 468,
+      "exportedPath": "Course/Legislation/Digital Business Models.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Emerging Issues & Legislation.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 773,
+      "exportedPath": "Course/Legislation/Emerging Issues & Legislation.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Equality Act.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 842,
+      "exportedPath": "Course/Legislation/Equality Act.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Ethical and Moral Issues.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 2687,
+      "exportedPath": "Course/Legislation/Ethical and Moral Issues.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Healthy Working Environment.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1212,
+      "exportedPath": "Course/Legislation/Healthy Working Environment.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Intellectual Property Act.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 424,
+      "exportedPath": "Course/Legislation/Intellectual Property Act.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Internet of Things.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1417,
+      "exportedPath": "Course/Legislation/Internet of Things.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Observational Techniques.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1441,
+      "exportedPath": "Course/Legislation/Observational Techniques.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Professional Bodies.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1031,
+      "exportedPath": "Course/Legislation/Professional Bodies.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Risk Working With Computers.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 287,
+      "exportedPath": "Course/Legislation/Risk Working With Computers.html",
+      "dependencies": []
+    },
+    "Course/Legislation/Telecommunications Regulations 2000.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 848,
+      "exportedPath": "Course/Legislation/Telecommunications Regulations 2000.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Abstraction.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1010,
+      "exportedPath": "Course/Problem Solving/Abstraction.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Algorithm.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 571,
+      "exportedPath": "Course/Problem Solving/Algorithm.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Algorithm Analysis.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1261,
+      "exportedPath": "Course/Problem Solving/Algorithm Analysis.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Bottom-Up.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 981,
+      "exportedPath": "Course/Problem Solving/Bottom-Up.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Decomposition.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 811,
+      "exportedPath": "Course/Problem Solving/Decomposition.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Pattern Recognition.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 362,
+      "exportedPath": "Course/Problem Solving/Pattern Recognition.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/PDLC.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 2926,
+      "exportedPath": "Course/Problem Solving/PDLC.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Problem Solving.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 389,
+      "exportedPath": "Course/Problem Solving/Problem Solving.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Pseudocode.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 2242,
+      "exportedPath": "Course/Problem Solving/Pseudocode.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/RCA.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1433,
+      "exportedPath": "Course/Problem Solving/RCA.html",
+      "dependencies": []
+    },
+    "Course/Problem Solving/Top-Down.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 1768,
+      "exportedPath": "Course/Problem Solving/Top-Down.html",
+      "dependencies": []
+    },
+    "Course/Python/ESP Task 4a Resources.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 3362,
+      "exportedPath": "Course/Python/ESP Task 4a Resources.html",
+      "dependencies": []
+    },
+    "Course/Python/ESP Task4a 2023.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 3510,
+      "exportedPath": "Course/Python/ESP Task4a 2023.html",
+      "dependencies": []
+    },
+    "Course/Python/Pasted image 20250128144543.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 89803,
+      "exportedPath": "Course/Python/Pasted image 20250128144543.png",
+      "dependencies": []
+    },
+    "Course/Python/Pasted image 20250128144619.png": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 32954,
+      "exportedPath": "Course/Python/Pasted image 20250128144619.png",
+      "dependencies": []
+    },
+    "Course/Python/Python.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 148,
+      "exportedPath": "Course/Python/Python.html",
+      "dependencies": []
+    },
+    "Course/Home.md": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 266,
+      "exportedPath": "Course/Home.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1739355850515,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    }
+  }
+}
